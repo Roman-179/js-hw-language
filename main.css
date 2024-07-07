@@ -26,6 +26,7 @@ a {
   font-size: 19px;
   font-weight: 400;
   cursor: pointer;
+  margin: 0 5px;
 }
 
 .lang_box {
@@ -52,14 +53,16 @@ a {
   padding-bottom: 46px;
 }
 
-.main_btn {
+.main_btn,
+.main_btn2 {
   width: 251px;
-  height: 28px;
+  /* height: 28px; */
   background-color: #faedd4;
   font-size: 20px;
   color: #fb3b2d;
   border: none;
   cursor: pointer;
+  padding: 0 7px;
 }
 .info {
   display: grid;
@@ -124,20 +127,43 @@ a {
   width: 363px;
   height: 265px;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  /* grid-template-rows: 2fr 1fr 1fr; */
   margin-top: 100px;
   /* justify-content: center; */
 }
 .stat img {
-  margin: auto;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  justify-self: center;
 }
-.stat_desc {
-  margin-top: 35px;
+.stat_desc1,
+.stat_desc2,
+.stat_desc3,
+.stat_desc4,
+.stat_desc5,
+.stat_desc6 {
+  font-size: 30px;
+  color: #fb3b2d;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.stat_numb1,
+.stat_numb2,
+.stat_numb3,
+.stat_numb4,
+.stat_numb5,
+.stat_numb6 {
+  /* margin-top: 35px; */
   font-size: 30px;
   color: #fb3b2d;
   text-align: center;
 }
-
+.active {
+  /* color: aqua; */
+  background-color: #ffffff;
+  border: 3px solid #fb3b2d;
+  /* padding: px; */
+}
 .stats_info_box {
   background-color: #fb3b2d;
   width: 100%;
