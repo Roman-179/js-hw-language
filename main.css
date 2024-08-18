@@ -160,8 +160,11 @@ a {
 }
 .active {
   /* color: aqua; */
-  background-color: #ffffff;
-  border: 3px solid #fb3b2d;
+  background-color: #fb3b2d;
+  color: #faedd4;
+  padding: 3px;
+  border-radius: 10px;
+  /* border: 3px solid #fb3b2d; */
   /* padding: px; */
 }
 .stats_info_box {
@@ -214,4 +217,26 @@ a {
 .contact {
   rotate: 90deg;
   font-size: 27px;
+}
+
+.footer_box {
+  width: 80%;
+  margin: 50px 0 50px 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_box ul {
+  margin: 0 30px;
+}
+.footer_box ul li {
+  color: rgba(251, 59, 45, 1);
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* padding-bottom: 2px; */
+  line-height: 33px;
+}
+
+.footer_box ul li:first-child {
+  padding-bottom: 34px;
 }
